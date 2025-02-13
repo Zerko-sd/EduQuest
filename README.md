@@ -22,7 +22,7 @@ Hosting: Vercel (Frontend), Firebase Hosting (Backend)
 sh
 Copy
 Edit
-git clone https://github.com/yourusername/eduquest.git
+git clone https://github.com/Zerko-sd/EduQuest
 cd eduquest
 2️⃣ Install Dependencies
 sh
@@ -31,7 +31,6 @@ Edit
 npm install
 3️⃣ Setup Environment Variables
 Create a .env.local file and add the following:
-
 sh
 Copy
 Edit
@@ -42,6 +41,7 @@ NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_storage_bucket
 NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
 NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
 NEXT_PUBLIC_GROQ_API_KEY=your_groq_api_key
+
 4️⃣ Start the Development Server
 sh
 Copy
